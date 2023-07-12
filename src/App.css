@@ -1,0 +1,336 @@
+/********* Style File for All Pages *********/
+.button {
+  background-color: var(--color-232f3e);
+  color: var(--color-FFFFFF);
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+  border: 1px solid var(--color-232f3e);
+  /* box-shadow: var(--color-232f3e); */
+}
+
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+  border: 0;
+}
+
+.shadow {box-shadow: 0 0 15px #0000001a;}
+
+h1 {
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: none;
+  color: var(--color-000000);
+}
+
+/*** Page Home Start Here ***/
+
+  /* Home wrapper-1 Start Here */
+  .main-banner .main-carousel {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: var(--color-febd69) !important;
+  }
+
+  .main-banner .carousel-item img {
+    border-radius: 15px;
+  }
+
+  .main-banner .carousel-caption {
+    top: 15px;
+    padding-left: 50px;
+    left: 1px;
+    text-align: left;
+  }
+
+  .main-banner .carousel-caption h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  .main-banner .carousel-caption h5 {
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    text-transform: none;
+    color: var(--color-000000);
+  }
+
+  .main-banner .carousel-caption p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: var(--color-131921);
+  }
+
+  .small-banner-content {
+      top: 18%;
+      left: 6%;
+  }
+  .small-banner-content.bottBanner{top: 26%;}
+
+  .small-banner h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  .small-banner h5 {
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    text-transform: none;
+    color: var(--color-000000);
+  }
+
+  .small-banner p {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: var(--color-131921);
+  }
+
+  /* Home wrapper-1 End Here */
+
+  /* Home wrapper-2 Start Here */
+  .home-wrapper-2 {
+    background-color: var(--color-f5f5f7);
+  }
+
+    /* Wrapper-2 Services Start */
+      .home-wrapper-2 .services .services-item img {
+        align-self: center;
+      }
+      .home-wrapper-2 .services .services-item .services-content h6 {
+        font-size: 16px;
+        line-height: 15px;
+        letter-spacing: 1px;
+        font-weight: 650;
+        text-transform: none;
+        color: var(--color-000000);
+      }
+
+      .home-wrapper-2 .services .services-item .services-content p {
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 17px;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: var(--color-131921);
+        margin: 0;
+      }
+    /* Wrapper-2 Services End */
+
+    /* Wrapper-2 Categories Start */
+        .home-wrapper-2 .categories {
+          background-color: var(--color-FFFFFF);
+          box-shadow: 0 0 15px #0000001a;
+          padding: 25px;
+          margin: 50px -80px;
+          border-radius: 12px;
+        }
+        .home-wrapper-2 .categories .categories-items {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 15px 5px;
+          width: 300px;
+          height: 140px;
+        }
+
+        .home-wrapper-2 .categories .categories-items img {
+          width: 110px;
+          height: 110px;
+        }
+        
+        .home-wrapper-2 .categories .categories-items:not(:last-of-type) {
+          border-right: 1px solid var(--color-ededed);
+        }
+
+        .home-wrapper-2 .categories .categories-items .categories-content {
+          padding-left: 7px;
+        }
+
+        .home-wrapper-2 .categories .categories-items .categories-content h6 {
+          font-size: 16px;
+          line-height: 18px;
+          font-weight: 650;
+          text-transform: none;
+          color: var(--color-000000);
+        }
+  
+        .home-wrapper-2 .categories .categories-items .categories-content p {
+          font-size: 11px;
+          font-weight: 300;
+          line-height: 20px;
+          letter-spacing: 1px;
+          text-align: left;
+          color: var(--color-131921);
+          margin: 0;
+        }
+    /* Wrapper-2 Categories End */
+    
+    /* Wrapper-2 Product Start Here */
+
+        .wrapper-2-product .product {
+          overflow: hidden;
+        }
+        .wrapper-2-product .product .wish {
+          position: absolute;
+          top: 3%;
+          right: 5%;
+          cursor: pointer;
+          /* background-color: var(--color-bf4800); */
+        }
+        .wrapper-2-product .product .wish:active {
+          color: var(--color-bf4800);
+        }
+
+        .wrapper-2-product .product .product-icon {
+          position: absolute;
+          flex-direction: column;
+          right: -10%;
+          top: 6%;
+        }
+
+        .wrapper-2-product .product:hover .product-icon {
+          right: 4.5%;
+          transition: 0.4s;
+        }
+        
+        .wrapper-2-product .product:hover .product-icon img {
+          cursor: pointer;
+          margin-top: 8px;
+          font-size: 10px;
+        }
+
+        .wrapper-2-product .product .product-img-div img {
+          cursor: pointer;
+          animation: ease-out;
+        }
+
+
+        .wrapper-2-product .product .product-img-div > .product-img-1 {
+          display: block;
+        }
+        
+        .wrapper-2-product .product .product-img-div > .product-img-2 {
+          display: none;
+        }
+
+        .wrapper-2-product .product .product-img-div:hover .product-img-1 {
+          display: none;
+        }
+        
+        .wrapper-2-product .product .product-img-div:hover .product-img-2 {
+          display: block;
+        }
+
+        .wrapper-2-product .product .card-body p {
+          font-size: 11px;
+          font-weight: 500;
+          line-height: 25px;
+          letter-spacing: 1px;
+          text-align: left;
+          color: var(--color-bf4800);
+          margin: 10px 0;
+        }
+
+        .wrapper-2-product .product .card-body h5 {
+          font-weight: 475;
+          font-size: 17px;
+          text-transform: none;
+          color: var(--color-1c1c1b);
+        }
+        .wrapper-2-product .product .card-body .price {
+          font-size: 17px;
+          font-weight: 450;
+          line-height: 30px;
+          letter-spacing: 2px;
+          text-align: left;
+          color: var(--color-1c1c1b);
+          margin: 0;
+        }
+
+    /* Wrapper-2 Product End Here */
+
+    /* Wrapper-2 Marquee Start Here */
+        .wrapper-2-marque .marquee-item-wrapper {
+          background-color: var(--color-FFFFFF) !important;
+          border-radius: 10px;
+          height: 130px;
+          display: flex;
+          align-items: center;
+        }
+    /* Wrapper-2 Marquee End Here */
+
+    /* Wrapper-2 Blog Start Here */
+
+        .wrapper-2-blog .card .card-body p {
+          font-size: 11px;
+          font-weight: 300;
+          line-height: 16px;
+          letter-spacing: 1px;
+          text-align: left;
+          color: var(--color-131921);
+          margin: 0;
+        }
+
+        .wrapper-2-blog .card .card-body h5 {
+          font-weight: 515;
+          font-size: 20px;
+          text-transform: none;
+          color: var(--color-000000);
+        }
+
+        .wrapper-2-blog .card .card-body .btn {
+          background-color: var(--color-232f3e);
+          color: var(--color-FFFFFF);
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 9px 20px;
+          border-radius: 25px;
+          /* border: 1px solid var(--color-232f3e); */
+          /* box-shadow: var(--color-232f3e); */
+          margin-top: 8px;
+        }
+
+        .noreadMore {
+          display: none;
+        }
+        .readMore {
+          display: contents;
+        }
+
+    /* Wrapper-2 Blog End Here */
+
+/* Home wrapper-2 End Here */
+
+/*** Page Home End Here ***/
+
+/* ------------------------------------------------------------------------------------- */
+
+/*** Page About Start Here ***/
+
+/*** Page About End Here ***/
+
+/* ------------------------------------------------------------------------------------- */
+
+/*** Page Contact Start Here ***/
+
+/*** Page Contact End Here ***/
